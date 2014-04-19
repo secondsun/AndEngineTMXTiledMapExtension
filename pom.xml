@@ -6,6 +6,19 @@
     <packaging>apklib</packaging>
     <name>AndEngine TMX Tiled</name>
 
+<distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>https://sagaoftherealms.net/nexus-latest/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>https://sagaoftherealms.net/nexus-latest/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+
     <properties>
         <android.version>4.4.2_r3</android.version>
         <android.support.version>[18,)</android.support.version>
